@@ -1,5 +1,5 @@
 ---
-layout: jekyll
+layout: default
 ---
 
 # Packages
