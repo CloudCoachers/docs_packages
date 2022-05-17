@@ -4,10 +4,10 @@ layout: default
 
 # Packages
 
-### [Modelos](Modelos/Index.md)
+### [Modelos](Modelos/index.md)
 
-### [Log](Log/Index.md)
+### [Log](Log/index.md)
 
-### [SEPA](SEPA/Index.md)
+### [SEPA](SEPA/index.md)
 
-### [SII](SII/Index.md)
+### [SII](SII/index.md)
