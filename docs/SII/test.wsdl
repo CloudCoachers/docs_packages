@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wsdl:definitions xmlns:VNifV2="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2.wsdl"
+    xmlns:VNifV2Ent="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2Ent.xsd"
+    xmlns:VNifV2Sal="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2Sal.xsd"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2.wsdl">
+
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema"
+            xmlns:VNifV2Ent="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2Ent.xsd" targetNamespace="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2Ent.xsd" elementFormDefault="qualified">
+            <annotation>
+                <documentation>
+					Esquema para solicitar la verificación de un NIF
+                </documentation>
+            </annotation>
+            <element name="VNifV2Ent" type="VNifV2Ent:VNifV2Ent"/>
+            <complexType name="VNifV2Ent">
+                <annotation>
+                    <documentation>
+						NIF : NIF a verificar
+						Nombre: Nombre o Razón Social
+                    </documentation>
+                </annotation>
+                <sequence>
+                    <element name="Contribuyente" minOccurs="1" maxOccurs="10000">
+                        <complexType>
+                            <sequence>
+                                <element name="Nif" type="string"/>
+                                <element name="Nombre" type="string"/>
+                            </sequence>
+                        </complexType>
+                    </element>
+                </sequence>
+            </complexType>
+        </schema>
+        <schema targetNamespace="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2Sal.xsd"
+            xmlns="http://www.w3.org/2001/XMLSchema"
+            xmlns:VNifV2Sal="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2Sal.xsd" elementFormDefault="qualified">
+            <annotation>
+                <documentation>
+					Esquema de respuesta del servico de verificación de NIF.
+                </documentation>
+            </annotation>
+            <element name="VNifV2Sal" type="VNifV2Sal:VNifV2Sal"/>
+            <complexType name="VNifV2Sal">
+                <annotation>
+                    <documentation>
+						Nif : Nif verificado
+						Nombre: Razón Social en caso de Persona Jurídica. En caso de Persona Física se responde un eco de los datos de entrada por temas de Protección de Datos Personales
+						Resultado: Resultado del proceso de identificación
+                    </documentation>
+                </annotation>
+                <sequence>
+                    <element name="Contribuyente" minOccurs="1" maxOccurs="10000">
+                        <complexType>
+                            <sequence>
+                                <element name="Nif" type="string"/>
+                                <element name="Nombre" type="string"/>
+                                <element name="Resultado" type="string"/>
+                            </sequence>
+                        </complexType>
+                    </element>
+                </sequence>
+            </complexType>
+        </schema>
+    </wsdl:types>
+
+    <wsdl:message name="Entrada">
+        <wsdl:part name="VNifV2Ent" element="VNifV2Ent:VNifV2Ent"/>
+    </wsdl:message>
+    <wsdl:message name="Salida">
+        <wsdl:part name="VNifV2Sal" element="VNifV2Sal:VNifV2Sal"/>
+    </wsdl:message>
+
+    <wsdl:portType name="VNifV2">
+        <wsdl:operation name="VNifV2">
+            <wsdl:input name="Entrada" message="VNifV2:Entrada"/>
+            <wsdl:output name="Salida" message="VNifV2:Salida"/>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="VNifV2SoapBinding" type="VNifV2:VNifV2">
+        <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="VNifV2">
+            <wsdlsoap:operation soapAction=""/>
+            <wsdl:input name="Entrada">
+                <wsdlsoap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="Salida">
+                <wsdlsoap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="VNifV2Service">
+        <!--Puerto para conexiones desde internet en PRO -->
+        <wsdl:port name="VNifPort1" binding="VNifV2:VNifV2SoapBinding">
+            <wsdlsoap:address location="https://www1.agenciatributaria.gob.es/wlpl/BURT-JDIT/ws/VNifV2SOAP"/>
+            <wsdlsoap:address location="https://www10.agenciatributaria.gob.es/wlpl/BURT-JDIT/ws/VNifV2SOAP"/>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>
