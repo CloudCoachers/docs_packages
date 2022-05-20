@@ -6,6 +6,15 @@ layout: default
 `APIVERSION: 52`
 
 `STATUS: ACTIVE`
+
+Batch para rellenar los datos de los modelos con los datos de la org
+
+
+**Author** Oriol Farras
+
+
+**Since** 2022
+
 ## Constructors
 ### `CC_CreateModelBatch(sObject model)`
 #### Parameters
@@ -53,10 +62,24 @@ layout: default
 ---
 ## Methods
 ### `init()`
+
+Metodo init
+
 ### `start(Database.BatchableContext bc)`
 #### Parameters
 |Param|Description|
 |---|---|
+|`bc`||
+
+#### Return
+
+**Type**
+
+Database.QueryLocator
+
+**Description**
+
+`Database.QueryLocator`
 
 ### `execute(Database.BatchableContext bc, List<Data_Source__mdt> datasources)`
 #### Parameters
@@ -74,6 +97,18 @@ layout: default
 #### Parameters
 |Param|Description|
 |---|---|
+|`yearstr`||
+|`periodstr`||
+
+#### Return
+
+**Type**
+
+List&lt;String&gt;
+
+**Description**
+
+`List&lt;String&gt;`
 
 ### `static hasSObjectField(String fieldName, SObject so)`
 
@@ -81,5 +116,17 @@ layout: default
 #### Parameters
 |Param|Description|
 |---|---|
+|`fieldName`||
+|`so`||
+
+#### Return
+
+**Type**
+
+boolean
+
+**Description**
+
+`boolean`
 
 ---
