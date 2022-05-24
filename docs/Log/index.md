@@ -5,8 +5,18 @@ nav_order: 1
 has_children: true
 ---
 
-# Log PACKAGE
+# Classes
 
-## _Documentacion en preparación_
+## Misc
 
-![En obras...](../images/Obras.png)
+### [Log](/Misc/Log.md)
+
+Class with loogin options
+
+### [LogLocation](/Misc/LogLocation.md)
+
+Inner class for loglaction
+
+### [Log_Test](/Misc/Log_Test.md)
+
+Test class of Log
