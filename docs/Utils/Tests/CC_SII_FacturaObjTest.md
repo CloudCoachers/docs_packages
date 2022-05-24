@@ -19,7 +19,7 @@ CC_SII_FacturaObj test class
 
 **Author** Oriol Farras
 
-**See** [CC_SII_FacturaObj](/Misc/CC_SII_FacturaObj.md)
+**See** [CC_SII_FacturaObj](../Misc/CC_SII_FacturaObj.md)
 
 ## Methods
 
