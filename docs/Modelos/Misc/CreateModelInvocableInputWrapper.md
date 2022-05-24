@@ -1,27 +1,32 @@
 ---
 layout: default
+title: CreateModelInvocableInputWrapper
+parent: Modelos
+nav_order: 2
 ---
+
 # CreateModelInvocableInputWrapper
 
 `APIVERSION: 52`
 
 `STATUS: ACTIVE`
+
 ## Fields
 
 ### `company` → `String`
 
-`INVOCABLEVARIABLE` 
+`INVOCABLEVARIABLE`
 
 ### `model` → `String`
 
-`INVOCABLEVARIABLE` 
+`INVOCABLEVARIABLE`
 
 ### `period` → `String`
 
-`INVOCABLEVARIABLE` 
+`INVOCABLEVARIABLE`
 
 ### `year` → `String`
 
-`INVOCABLEVARIABLE` 
+`INVOCABLEVARIABLE`
 
 ---

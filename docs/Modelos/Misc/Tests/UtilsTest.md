@@ -1,6 +1,10 @@
 ---
 layout: default
+title: UtilsTest
+parent: Tests
+nav_order: 2
 ---
+
 # UtilsTest
 
 `ISTEST`
@@ -8,8 +12,9 @@ layout: default
 `APIVERSION: 54`
 
 `STATUS: ACTIVE`
+
 ## Methods
+
 ### `static testGenerarLog()`
 
-`ISTEST`
----
+## `ISTEST`

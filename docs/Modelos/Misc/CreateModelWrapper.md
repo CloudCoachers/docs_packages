@@ -1,27 +1,32 @@
 ---
 layout: default
+title: CreateModelWrapper
+parent: Modelos
+nav_order: 2
 ---
+
 # CreateModelWrapper
 
 `APIVERSION: 52`
 
 `STATUS: ACTIVE`
+
 ## Properties
 
 ### `company` → `String`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ### `model` → `String`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ### `period` → `String`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ### `year` → `String`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ---
