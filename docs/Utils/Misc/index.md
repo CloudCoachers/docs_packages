@@ -9,10 +9,10 @@ parent: Utils
 
 ## Misc
 
-### [CC_SII_FacturaObj](/Misc/CC_SII_FacturaObj.md)
+### [CC_SII_FacturaObj](CC_SII_FacturaObj.md)
 
 Clase abstracta para guaradar los datos del metadato FacturaField
 
-### [CC_Utils](/Misc/CC_Utils.md)
+### [CC_Utils](CC_Utils.md)
 
 Clase con utiles para

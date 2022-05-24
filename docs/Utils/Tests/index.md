@@ -9,22 +9,22 @@ parent: Utils
 
 ## Tests
 
-### [CC_SII_FacturaObjTest](/Tests/CC_SII_FacturaObjTest.md)
+### [CC_SII_FacturaObjTest](CC_SII_FacturaObjTest.md)
 
 CC_SII_FacturaObj test class
 
-### [CC_UtilsTest](/Tests/CC_UtilsTest.md)
+### [CC_UtilsTest](CC_UtilsTest.md)
 
 Clase de test para CC_Utils
 
-### [DatatableFilterControllerTest](/Tests/DatatableFilterControllerTest.md)
+### [DatatableFilterControllerTest](DatatableFilterControllerTest.md)
 
 Clase de test de DatatableFilterController
 
-### [LookupSearchResultTests](/Tests/LookupSearchResultTests.md)
+### [LookupSearchResultTests](LookupSearchResultTests.md)
 
-Clase de test de [LookupSearchResult](/Controllers/LookupSearchResult.md)
+Clase de test de [LookupSearchResult](../Controllers/LookupSearchResult.md)
 
-### [customDatatableControllerTest](/Tests/customDatatableControllerTest.md)
+### [customDatatableControllerTest](customDatatableControllerTest.md)
 
 clase de test de customDatatableController
