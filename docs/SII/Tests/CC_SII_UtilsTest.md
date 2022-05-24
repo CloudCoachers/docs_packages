@@ -2,7 +2,7 @@
 layout: default
 title: Tests
 nav_order: 4
-parent: SII
+parent: Tests
 ---
 
 # CC_SII_UtilsTest

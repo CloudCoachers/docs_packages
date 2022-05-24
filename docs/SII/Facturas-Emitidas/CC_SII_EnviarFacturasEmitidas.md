@@ -2,7 +2,7 @@
 layout: default
 title: Facturas Emitidas
 nav_order: 4
-parent: SII
+parent: Facturas Emitidas
 ---
 
 # CC_SII_EnviarFacturasEmitidas

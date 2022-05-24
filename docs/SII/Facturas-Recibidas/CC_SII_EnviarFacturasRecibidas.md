@@ -2,7 +2,7 @@
 layout: default
 title: Facturas Recibidas
 nav_order: 4
-parent: SII
+parent: Facturas Recibidas
 ---
 
 # CC_SII_EnviarFacturasRecibidas
