@@ -1,7 +1,7 @@
 ---
 layout: default
 title: LookupSearchResult
-parent: Utils
+parent: Controllers
 nav_order: 5
 ---
 

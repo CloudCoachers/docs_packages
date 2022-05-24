@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DatatableFilterController
-parent: Utils
+parent: Controllers
 nav_order: 5
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: customDatatableController
-parent: Utils
+parent: Controllers
 nav_order: 5
 ---
 

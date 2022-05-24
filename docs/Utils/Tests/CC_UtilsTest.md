@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CC_UtilsTest
-parent: Utils
+parent: Tests
 nav_order: 5
 ---
 

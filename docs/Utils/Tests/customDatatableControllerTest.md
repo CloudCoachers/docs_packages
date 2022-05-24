@@ -1,7 +1,7 @@
 ---
 layout: default
 title: customDatatableControllerTest
-parent: Utils
+parent: Tests
 nav_order: 5
 ---
 

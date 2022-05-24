@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 404
+title: CC Packages
 nav_exclude: true
 ---
 

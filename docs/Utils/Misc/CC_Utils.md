@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CC_Utils
-parent: Utils
+parent: Misc
 nav_order: 5
 ---
 
