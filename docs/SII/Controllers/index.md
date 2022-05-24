@@ -9,10 +9,10 @@ parent: SII
 
 ## Controllers
 
-### [CC_EnviarSII_AUC](/Controllers/CC_EnviarSII_AUC.md)
+### [CC_EnviarSII_AUC](CC_EnviarSII_AUC.md)
 
 Baja de facturas emitidas
 
-### [SuministrosSIIController](/Controllers/SuministrosSIIController.md)
+### [SuministrosSIIController](SuministrosSIIController.md)
 
 Baja de facturas emitidas

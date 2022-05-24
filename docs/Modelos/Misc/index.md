@@ -9,54 +9,54 @@ parent: Modelos
 
 ## Miscellaneous
 
-### [CC_CreateModelBatch](/Misc/CC_CreateModelBatch.md)
+### [CC_CreateModelBatch](CC_CreateModelBatch.md)
 
 Batch para rellenar los datos de los modelos con los datos de la org
 
-### [CC_CreateModelBatchTest](/Misc/CC_CreateModelBatchTest.md)
+### [CC_CreateModelBatchTest](CC_CreateModelBatchTest.md)
 
-### [CC_CreateModelBlockBatch](/Misc/CC_CreateModelBlockBatch.md)
+### [CC_CreateModelBlockBatch](CC_CreateModelBlockBatch.md)
 
-### [CC_CreateModelBlockBatchTest](/Misc/CC_CreateModelBlockBatchTest.md)
+### [CC_CreateModelBlockBatchTest](CC_CreateModelBlockBatchTest.md)
 
-### [CC_InsertModels](/Misc/CC_InsertModels.md)
+### [CC_InsertModels](CC_InsertModels.md)
 
-### [CC_InsertModelsTest](/Misc/CC_InsertModelsTest.md)
+### [CC_InsertModelsTest](CC_InsertModelsTest.md)
 
-### [CC_nameAEAT_Handler](/Misc/CC_nameAEAT_Handler.md)
+### [CC_nameAEAT_Handler](CC_nameAEAT_Handler.md)
 
-### [CC_nameAEAT_HandlerTest](/Misc/CC_nameAEAT_HandlerTest.md)
+### [CC_nameAEAT_HandlerTest](CC_nameAEAT_HandlerTest.md)
 
-### [CreateModelInvocableInputWrapper](/Misc/CreateModelInvocableInputWrapper.md)
+### [CreateModelInvocableInputWrapper](CreateModelInvocableInputWrapper.md)
 
-### [CreateModelInvocableOutputWrapper](/Misc/CreateModelInvocableOutputWrapper.md)
+### [CreateModelInvocableOutputWrapper](CreateModelInvocableOutputWrapper.md)
 
-### [CreateModelWrapper](/Misc/CreateModelWrapper.md)
+### [CreateModelWrapper](CreateModelWrapper.md)
 
-### [CreateModel_InvocableMethod](/Misc/CreateModel_InvocableMethod.md)
+### [CreateModel_InvocableMethod](CreateModel_InvocableMethod.md)
 
-### [CreateModel_InvocableMethodTest](/Misc/CreateModel_InvocableMethodTest.md)
+### [CreateModel_InvocableMethodTest](CreateModel_InvocableMethodTest.md)
 
-### [CreateXMLModelBatch](/Misc/CreateXMLModelBatch.md)
+### [CreateXMLModelBatch](CreateXMLModelBatch.md)
 
-### [CreateXMLModelBatchTest](/Misc/CreateXMLModelBatchTest.md)
+### [CreateXMLModelBatchTest](CreateXMLModelBatchTest.md)
 
-### [CreateXMLModels](/Misc/CreateXMLModels.md)
+### [CreateXMLModels](CreateXMLModels.md)
 
-### [CreateXMLModelsInvocableInputWrapper](/Misc/CreateXMLModelsInvocableInputWrapper.md)
+### [CreateXMLModelsInvocableInputWrapper](CreateXMLModelsInvocableInputWrapper.md)
 
-### [CreateXMLModelsTest](/Misc/CreateXMLModelsTest.md)
+### [CreateXMLModelsTest](CreateXMLModelsTest.md)
 
-### [DataSourceUtil](/Misc/DataSourceUtil.md)
+### [DataSourceUtil](DataSourceUtil.md)
 
-### [DataSourceUtil_TST](/Misc/DataSourceUtil_TST.md)
+### [DataSourceUtil_TST](DataSourceUtil_TST.md)
 
-### [Model_Ctr](/Misc/Model_Ctr.md)
+### [Model_Ctr](Model_Ctr.md)
 
-### [Model_CtrTest](/Misc/Model_CtrTest.md)
+### [Model_CtrTest](Model_CtrTest.md)
 
-### [ModeloAbstract](/Misc/ModeloAbstract.md)
+### [ModeloAbstract](ModeloAbstract.md)
 
-### [Utils](/Misc/Utils.md)
+### [Utils](Utils.md)
 
-### [UtilsTest](/Misc/UtilsTest.md)
+### [UtilsTest](UtilsTest.md)
