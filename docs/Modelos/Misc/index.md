@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Modelos
+title: Misc
 nav_order: 2
-has_children: true
+parent: Modelos
 ---
 
 # Classes

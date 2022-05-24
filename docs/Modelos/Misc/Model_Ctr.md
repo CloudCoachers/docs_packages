@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Model_Ctr
-parent: Modelos
+parent: Misc
 nav_order: 2
 ---
 

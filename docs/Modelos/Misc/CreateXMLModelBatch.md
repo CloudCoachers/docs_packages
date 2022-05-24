@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CreateXMLModelBatch
-parent: Modelos
+parent: Misc
 nav_order: 2
 ---
 
