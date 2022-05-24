@@ -2,6 +2,7 @@
 layout: default
 title: SEPA
 nav_order: 3
+has_children: true
 ---
 
 # SEPA PACKAGE

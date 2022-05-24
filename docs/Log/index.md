@@ -1,7 +1,8 @@
 ---
 layout: default
-title: SEPA
+title: Log
 nav_order: 1
+has_children: true
 ---
 
 # Log PACKAGE
