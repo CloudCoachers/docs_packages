@@ -1,6 +1,10 @@
 ---
 layout: default
+title: Tests
+nav_order: 4
+parent: SII
 ---
+
 # CC_SII_UtilsTest
 
 `ISTEST`
@@ -11,12 +15,9 @@ layout: default
 
 Test CC_EnviarSII_AUC
 
-
 **Author** Oriol Farras
 
-
 **Group** Tests
-
 
 **Date** 12/2021
 
@@ -24,76 +25,93 @@ Test CC_EnviarSII_AUC
 
 ### `XMLRESPUESTACORRECTOFE` → `String`
 
-
 ### `XMLRESPUESTACORRECTOFR` → `String`
-
 
 ### `XMLRESPUESTAFAULT` → `String`
 
-
 ---
+
 ## Methods
+
 ### `static testFormatearFecha()`
 
 `ISTEST`
+
 ### `static testPopulateDoc()`
 
 `ISTEST`
+
 ### `static testgetSObjectField()`
 
 `ISTEST`
+
 ### `static testCreateFileOnRecord()`
 
-`ISTEST`
----
+## `ISTEST`
+
 ## Classes
+
 ### CC_RespuestaFacturasMock
+
 #### Constructors
+
 ##### `CC_RespuestaFacturasMock(String numFactura, String nodeName)`
+
 ###### Parameters
-|Param|Description|
-|---|---|
+
+| Param | Description |
+| ----- | ----------- |
 
 ---
+
 #### Fields
 
 ##### `nodeName` → `String`
 
-
 ##### `numFactura` → `String`
 
-
 ---
+
 #### Methods
+
 ##### `respond(HTTPRequest req)`
+
 ###### Parameters
-|Param|Description|
-|---|---|
+
+| Param | Description |
+| ----- | ----------- |
 
 ---
 
 ### CC_RespuestasBajaFacturasMock
+
 #### Constructors
+
 ##### `CC_RespuestasBajaFacturasMock(String numFactura, String nodeName)`
+
 ###### Parameters
-|Param|Description|
-|---|---|
+
+| Param | Description |
+| ----- | ----------- |
 
 ---
+
 #### Fields
 
 ##### `nodeName` → `String`
 
-
 ##### `numFactura` → `String`
 
-
 ---
+
 #### Methods
+
 ##### `respond(HTTPRequest req)`
+
 ###### Parameters
-|Param|Description|
-|---|---|
+
+| Param | Description |
+| ----- | ----------- |
 
 ---
 

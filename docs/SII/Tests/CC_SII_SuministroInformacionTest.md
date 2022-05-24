@@ -1,6 +1,10 @@
 ---
 layout: default
+title: Tests
+nav_order: 4
+parent: SII
 ---
+
 # CC_SII_SuministroInformacionTest
 
 `ISTEST`
@@ -11,20 +15,18 @@ layout: default
 
 Test CC_SII_SuministroInformacio
 
-
 **Author** Oriol Farras
 
-
 **Group** Tests
-
 
 **Date** 12/2021
 
 ## Methods
+
 ### `static testPresentacion()`
 
 `ISTEST`
+
 ### `static testRespuetaPresentacion()`
 
-`ISTEST`
----
+## `ISTEST`

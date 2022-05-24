@@ -1,6 +1,10 @@
 ---
 layout: default
+title: Controllers
+nav_order: 4
+parent: SII
 ---
+
 # SuministrosSIIController
 
 `APIVERSION: 52`
@@ -9,49 +13,52 @@ layout: default
 
 Baja de facturas emitidas
 
-
 **Author** Oriol Farras
 
-
 **Group** Controllers
-
 
 **Date** 2022
 
 ## Methods
+
 ### `static getAllSuministros(String idFactura)`
 
 `AURAENABLED`
+
 #### Parameters
-|Param|Description|
-|---|---|
+
+| Param | Description |
+| ----- | ----------- |
 
 ---
+
 ## Classes
+
 ### DataTableWrapper
 
 `TESTVISIBLE`
+
 #### Properties
 
 ##### `Id` → `Id`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ##### `estado` → `String`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ##### `name` → `String`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ##### `nameUrl` → `String`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ##### `tipo` → `String`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 ---
 

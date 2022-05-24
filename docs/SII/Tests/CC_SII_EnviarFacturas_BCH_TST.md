@@ -1,6 +1,10 @@
 ---
 layout: default
+title: Tests
+nav_order: 4
+parent: SII
 ---
+
 # CC_SII_EnviarFacturas_BCH_TST
 
 `ISTEST`
@@ -11,36 +15,40 @@ layout: default
 
 Test CC_EnviarSII_AUC
 
-
 **Author** Oriol Farras
 
-
 **Group** Tests
-
 
 **Date** 12/2021
 
 ## Methods
+
 ### `static testEnvioFacturasBCH()`
 
 `ISTEST`
+
 ### `static testEnvioError()`
 
-`ISTEST`
----
+## `ISTEST`
+
 ## Classes
+
 ### CC_RespuestasFacturasEmitidasMock
+
 #### Fields
 
 ##### `numFactura` → `String`
 
-
 ---
+
 #### Methods
+
 ##### `respond(HTTPRequest req)`
+
 ###### Parameters
-|Param|Description|
-|---|---|
+
+| Param | Description |
+| ----- | ----------- |
 
 ---
 
